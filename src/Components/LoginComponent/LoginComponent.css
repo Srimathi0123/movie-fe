@@ -1,47 +1,48 @@
 /* LoginComponent.css */
 
 .login {
-    max-width: 500px;
+    max-width: 400px;
     margin: 50px auto;
     padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: #fff;
 }
 
 .login h1 {
     text-align: center;
-    margin-bottom: 20px; /* Reduced margin */
+    margin-bottom: 20px;
     color: #333;
 }
 
 .login .form-group {
-    margin-bottom: 10px; /* Reduced margin */
+    margin-bottom: 15px;
 }
 
 .login .form-control {
     width: 100%;
-    padding: 8px; /* Reduced padding */
+    padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 4px;
 }
 
 .login .custom-checkbox {
     display: flex;
     align-items: center;
+    margin-bottom: 15px;
 }
 
 .login .custom-control-input {
-    margin-right: 5px; /* Reduced margin */
+    margin-right: 10px;
 }
 
 .login .btn {
     width: 100%;
-    padding: 8px; /* Reduced padding */
-    background-color: #007bff;
+    padding: 10px;
+    background-color: #cf49a2;
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
     color: white;
     cursor: pointer;
     font-size: 16px;
@@ -55,12 +56,12 @@
 .login .forgot-password,
 .login .text-right {
     text-align: right;
-    margin-top: 8px; /* Reduced margin */
+    margin-top: 10px;
 }
 
 .login .forgot-password a,
 .login .text-right a {
-    color: #007bff;
+    color: #d755cd;
     text-decoration: none;
 }
 
