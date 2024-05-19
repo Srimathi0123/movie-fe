@@ -1,0 +1,58 @@
+/* SignupComponent.css */
+
+.signup-form {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.signup-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.signup-form .form-group {
+    margin-bottom: 15px;
+}
+
+.signup-form .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signup-form .btn {
+    width: 100%;
+    padding: 5px;
+    background-color: #e057a7;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.signup-form .btn:hover {
+    background-color: #e057a7;
+}
+
+.signup-form .forgot-password {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.signup-form .forgot-password a {
+    color: #e057a7;
+    text-decoration: none;
+}
+
+.signup-form .forgot-password a:hover {
+    text-decoration: underline;
+}

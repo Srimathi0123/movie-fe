@@ -1,0 +1,70 @@
+/* LoginComponent.css */
+
+.login {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.login h1 {
+    text-align: center;
+    margin-bottom: 20px; /* Reduced margin */
+    color: #333;
+}
+
+.login .form-group {
+    margin-bottom: 10px; /* Reduced margin */
+}
+
+.login .form-control {
+    width: 100%;
+    padding: 8px; /* Reduced padding */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login .custom-checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.login .custom-control-input {
+    margin-right: 5px; /* Reduced margin */
+}
+
+.login .btn {
+    width: 100%;
+    padding: 8px; /* Reduced padding */
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.login .btn:hover {
+    background-color: #0056b3;
+}
+
+.login .forgot-password,
+.login .text-right {
+    text-align: right;
+    margin-top: 8px; /* Reduced margin */
+}
+
+.login .forgot-password a,
+.login .text-right a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login .forgot-password a:hover,
+.login .text-right a:hover {
+    text-decoration: underline;
+}
