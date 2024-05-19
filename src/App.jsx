@@ -15,7 +15,7 @@ const App = () => {
             <div className="App" >
                 <nav className='navbar navbar-expand-lg navbar-light fixed-top'>
                     <div className='container'>
-                        <Link className='navbar-brand' to={'/login'}>
+                        <Link className='navbar-brand nav-link' to={'/login'}>
                             Saveetha | MERN
                         </Link>
                         <div className='collapse navbar-collapse' id='navbarTogglerDemo2'>
